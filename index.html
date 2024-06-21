@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hacker Bootstrap Theme</title>
+    <link href="css/hacker.css" rel="stylesheet">
+
+    <style>
+    .tall-row {
+        margin-top: 40px;
+    }
+    .modal {
+        position: relative;
+        top: auto;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        z-index: 1;
+        display: block;
+    }
+    </style>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-default navbar-static-top ctf-theme">  <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Papa_PClub - C3iHub CTF</a>  </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <a href="#Table">About Us</a>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+    <div class="container">
+
+        <!-- Jumbotron -->
+        <div class="jumbotron ctf-theme"> <h1>Papa_PClub: F6's Finest</h1>
+            <p>We're a crack team of second-year wingies from F6, ready to conquer any CTF challenge. We may be quirky, but our skills are on point. </p>
+            <p>Wanna see our code? Check us out on Github, or marvel at our star power (it's out of this world!).</p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="#" role="button">Github our awesomeness &raquo;</a>
+              <a class="btn btn-warning" href="#" id="stars">Witness the stardust! &raquo;</a>
+            </p>
+          </div>
+          
+          <div class="row tall-row">
+            <div class="col-lg-12">
+              <h1>Our Superpower Squad</h1>
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <i class="fa fa-user-secret" aria-hidden="true"></i> <h1>Papa_PClub</h1>
+              <p>We come in all flavors: bug hunters, cryptographers, web ninjas, and more! </p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-flask" aria-hidden="true"></i> <h2>Quirks &percnt; Skills</h2>
+              <p>We're not just skilled, we're *uniquely* skilled. From coding while blindfolded to solving puzzles upside down, we bring the X-factor.  </p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-trophy" aria-hidden="true"></i> <h2>Confidence Level: </h2>
+              <p>We're F6 veterans, and we're here to dominate the CTF scene. We might trash talk, but our skills back it up.  </p>
+            </div>
+          </div>
+          
+          <div class="row tall-row">
+            <div class="col-lg-12">
+              <h1>Weapons of Choice</h1>
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <button class="btn btn-default" onclick="alert('Nope, this button does nothing. Gotcha!')">Click at Your Own Peril</button>
+              <button class="btn btn-primary" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">Distraction Device</button>
+              <button class="btn btn-success" onclick="document.body.style.backgroundColor = 'pink';">Pinkify!</button>
+              <button class="btn btn-info" onclick="document.body.classList.toggle('disco-mode');">Disco Fever!</button>
+              <button class="btn btn-warning" onclick="alert('Warning: May unleash embarrassing childhood photos!')">Meme Arsenal</button>
+              <button class="btn btn-danger" onclick="playHackerTypingSound()"> unleash the HACKS!</button>
+            </div>
+            <div class="col-sm-6">
+              <img src="img/giphy.webp" alt="Caffeine Overload" style="width: 13%">
+            </div>
+          </div>
+          
+          <script>
+          function playHackerTypingSound() {
+            var audio = new Audio('sound/hack.mp3'); // Replace 'sound/hack.mp3' with the path to your audio file
+            audio.play();
+          }
+          </script>
+          
+        <a id="Table">
+          <div class="row tall-row">
+            <div class="col-lg-12">
+              <h1>Our Noble House of Hackers</h1>
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <table class="table table-striped table-hover ">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Code Name</th>
+                    <th>House</th>
+                    <th>Speciality</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>DarkLord</td>  <img src="img/iron-throne.jpg" alt="Iron Throne" style="width: 100px; height: 100px;">
+                    <td>Iron Throne</td>  <td>Master Of All</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>MuonRancour</td>  <img src="img/mystery-man.avif" alt="Mystery Man" style="width: 100px; height: 100px;">  <td>??? (Coming Soon!)</td>  <td>Watch Out!</td></tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Tensor</td>  <img src="img/ghost.jpg" alt="Raven" style="width: 100px; height: 100px;">
+                    <td>The Ghost</td>  <td>Reconnaissance & Intel</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Intruder</td>  <img src="img/raven.jpg" alt="Raven" style="width: 100px; height: 100px;">
+                    <td>The Silent Infiltrator</td>  <td>Penetration Testing & Exploitation</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>SH4D0WLORD</td>
+                    <img src="img/dagger.jpg" alt="Dagger" style="width: 100px; height: 100px;">
+                    <td>The Master of Shadows</td>
+                    <td>Cryptography & Obfuscation</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Xavaitron</td>
+                    <img src="img/dragon.jpeg" alt="Dragon" style="width: 100px; height: 100px;">
+                    <td>The Fire-Breathing Coder</td>
+                    <td>Exploitation & Automation</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>slackerr</td>
+                    <img src="img/wineglass.jpeg" alt="Wine Glass" style="width: 100px; height: 100px;">
+                    <td>The Unconventional Genius</td>
+                    <td>Lateral Thinking & Creative Solutions</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>NOYB</td>
+                    <img src="img/spyglass.jpg" alt="Spyglass" style="width: 100px; height: 100px;">
+                    <td>The Watchful Observer</td>
+                    <td>Vulnerability Research & Analysis</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Civilian</td>
+                    <img src="img/wildling.png" alt="Wildling" style="width: 100px; height: 100px;">
+                    <td>The Unpredictable Wildcard</td>
+                    <td>X-Factor & Adaptability</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </a>
+          
+          <!-- extra.html -->
+
+        <div class="row tall-row">
+            <div class="col-md-12">
+                <p>Created by Tensor. &copy; 2024</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- Github stars script -->
+    <script>
+    $(document).ready(function(){
+        $.getJSON("https://api.github.com/repos/Bachittarjeet/Hacker-Bootstrap-Template/", function(data){
+            var stars = data['stargazers_count'];
+            $("#stars").text(stars + " stars");
+        });
+    });
+    </script>
+
+</body>
+</html>
+
